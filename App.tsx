@@ -4,9 +4,7 @@ import { Fragment } from 'react';
 export default function App() {
   return (
     <View style={{
-      flex: 1,
-      backgroundColor: '#131016',
-      padding: 24,
+      
     }}>
 
     <Text style={{
@@ -28,3 +26,11 @@ export default function App() {
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+      flex: 1,
+      backgroundColor: '#131016',
+      padding: 24,
+  }
+});
