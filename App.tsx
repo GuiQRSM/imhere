@@ -3,23 +3,13 @@ import { Fragment } from 'react';
 
 export default function App() {
   return (
-    <View style={{
-      
-    }}>
+    <View style={styles.container}>
 
-    <Text style={{
-      color: '#FDFCFE',
-      fontSize: 24,
-      fontWeight: 'bold',
-      marginTop: 48,
-    }}>
+    <Text style={styles.eventName}>
       Nome do evento
     </Text>
 
-    <Text style={{
-      color: '#6B6B6B',
-      fontSize: 16,
-    }}>
+    <Text style={styles.eventDate}>
       Sexta, 8 de março de 2024.
     </Text>
     
@@ -32,5 +22,15 @@ const styles = StyleSheet.create({
       flex: 1,
       backgroundColor: '#131016',
       padding: 24,
+  },
+  eventName: {
+    color: '#FDFCFE',
+      fontSize: 24,
+      fontWeight: 'bold',
+      marginTop: 48,
+  },
+  eventDate: {
+    color: '#6B6B6B',
+    fontSize: 16,
   }
 });
