@@ -1,4 +1,4 @@
-import { Text, View } from 'react-native';
+import { Text, View, TextInput } from 'react-native';
 import { styles } from './styles';
 
 export function Home() {
@@ -13,6 +13,8 @@ export function Home() {
       Sexta, 8 de março de 2024.
     </Text>
     
+    <TextInput />
+
     </View>
   )
 }
