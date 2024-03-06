@@ -17,10 +17,10 @@ export const styles = StyleSheet.create({
       fontSize: 16,
     },
     input: {
-      backgroundColor: "#F1E25",
+      backgroundColor: '#1F1E25',
       height: 56,
       borderRadius: 5,
-      color: "#FDFCFE",
+      color: '#FDFCFE',
       padding: 16,
       fontSize: 16,
     }

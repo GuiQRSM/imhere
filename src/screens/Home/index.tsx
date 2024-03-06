@@ -13,7 +13,7 @@ export function Home() {
       Sexta, 8 de março de 2024.
     </Text>
     
-    <TextInput />
+    <TextInput style={styles.input}/>
 
     </View>
   )
