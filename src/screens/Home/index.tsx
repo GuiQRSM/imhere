@@ -2,6 +2,11 @@ import { Text, View, TextInput, TouchableOpacity } from 'react-native';
 import { styles } from './styles';
 
 export function Home() {
+
+  function handleParticipantAdd() {
+    console.log("Clicado!");
+  }
+ 
   return (
     <View style={styles.container}>
 
@@ -19,7 +24,9 @@ export function Home() {
      placeholderTextColor="#6B6B6B"
      />
 
-     <TouchableOpacity style={styles.buttton}>
+     <TouchableOpacity style={styles.buttton}
+      onPress={handleParticipantAdd}>
+        
       <Text style={styles.buttonText}>
        +
       </Text>
