@@ -21,7 +21,7 @@ export function Home() {
 
      <TouchableOpacity style={styles.buttton}>
       <Text style={styles.buttonText}>
-        Clique aqui!
+       +
       </Text>
      </TouchableOpacity>
 

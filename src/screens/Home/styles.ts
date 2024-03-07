@@ -27,10 +27,13 @@ export const styles = StyleSheet.create({
     buttonText: {
       color: "#FFF",
       fontSize: 24,
-      paddingTop: 13,
     },
     buttton: {
       width: 56,
       height: 56,
+      borderRadius: 5,
+      backgroundColor: "#31CF67",
+      alignItems: 'center',
+      justifyContent: 'center'
     }
   });
