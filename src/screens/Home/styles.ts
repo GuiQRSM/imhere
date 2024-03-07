@@ -23,5 +23,8 @@ export const styles = StyleSheet.create({
       color: '#FDFCFE',
       padding: 16,
       fontSize: 16,
+    },
+    buttonText: {
+      
     }
   });
