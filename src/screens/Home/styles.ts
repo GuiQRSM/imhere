@@ -25,6 +25,12 @@ export const styles = StyleSheet.create({
       fontSize: 16,
     },
     buttonText: {
-      
+      color: "#FFF",
+      fontSize: 24,
+      paddingTop: 13,
+    },
+    buttton: {
+      width: 56,
+      height: 56,
     }
   });

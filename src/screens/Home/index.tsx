@@ -19,7 +19,7 @@ export function Home() {
      placeholderTextColor="#6B6B6B"
      />
 
-     <TouchableOpacity>
+     <TouchableOpacity style={styles.buttton}>
       <Text style={styles.buttonText}>
         Clique aqui!
       </Text>
