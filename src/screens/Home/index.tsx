@@ -18,6 +18,7 @@ export function Home() {
       Sexta, 8 de março de 2024.
     </Text>
     
+  <View style={styles.form}>
     <TextInput
      style={styles.input}
      placeholder='Nome do participante'
@@ -26,11 +27,12 @@ export function Home() {
 
      <TouchableOpacity style={styles.buttton}
       onPress={handleParticipantAdd}>
-        
+
       <Text style={styles.buttonText}>
        +
       </Text>
      </TouchableOpacity>
+    </View>
 
     </View>
   )
