@@ -6,7 +6,8 @@ width: "100%",
 backgroundColor: '#1F1E25',
 borderRadius: 5,
 flexDirection: 'row',
-alignItems: 'center'
+alignItems: 'center',
+marginBottom: 10,
 },
 name: {
     flex: 1,
