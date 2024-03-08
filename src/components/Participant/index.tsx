@@ -1,8 +1,9 @@
 import { View, Text } from "react-native";
 
 export function Participant() {
-    return
+    return (
     <View>
         <Text>Guilherme</Text>
     </View>
+    );
 }

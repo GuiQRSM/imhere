@@ -35,6 +35,8 @@ export function Home() {
      </TouchableOpacity>
     </View>
 
+<Participant />
+
     </View>
   )
 }
