@@ -1,12 +1,12 @@
 import { View, Text, TouchableOpacity} from "react-native";
 import { styles } from "./style";
 
-export function Participant(props) {
+export function Participant({name}) {
     return (
     <View style={styles.container}>
 
         <Text style={styles.name}>
-            {props.name}
+            {name}
         </Text>
 
     <TouchableOpacity style={styles.buttton}>
