@@ -9,7 +9,7 @@ export function Home() {
   }
 
   function handleParticipantRemover() {
-
+    console.log("Clicou em Reomover!");
   }
  
   return (
