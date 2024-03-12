@@ -4,7 +4,7 @@ import { Participant } from '../../components/Participant';
 
 export function Home() {
 
-  const participants = ['Name1', 'Name2', 'Name3', 'Name4']
+  const participant = ['Name1', 'Name2', 'Name3', 'Name4']
 
   function handleParticipantAdd() {
     console.log("Clicado!");
@@ -41,7 +41,16 @@ export function Home() {
      </TouchableOpacity>
     </View>
 
-<Participant name="MenberOne" onRemove={() => handleParticipantRemover("Menber1")}/>
+{
+  participant.map(participant => (
+    <Participant 
+      key={participant}
+      name="MenberOne" 
+      onRemove={() => handleParticipantRemover("Menber1")}
+    />
+  ))
+}
+
 <Participant name="MenberTwo" onRemove={() => handleParticipantRemover("Menber2")}/>
 
     </View>
