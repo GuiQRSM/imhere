@@ -4,7 +4,7 @@ import { Participant } from '../../components/Participant';
 
 export function Home() {
 
-  const participant = ['Name1', 'Name2', 'Name3', 'Name4']
+  const participant = ['Name1', 'Name2', 'Name3', 'Name4','Name5','Name6', 'Name7', 'Name8', 'Name9', 'Name10' ]
 
   function handleParticipantAdd() {
     console.log("Clicado!");
@@ -45,7 +45,7 @@ export function Home() {
   participant.map(participant => (
     <Participant 
       key={participant}
-      name="MenberOne" 
+      name={participant}
       onRemove={() => handleParticipantRemover("Menber1")}
     />
   ))
