@@ -41,6 +41,7 @@ export function Home() {
      </TouchableOpacity>
     </View>
 
+<ScrollView>
 {
   participant.map(participant => (
     <Participant 
@@ -50,8 +51,7 @@ export function Home() {
     />
   ))
 }
-
-<Participant name="MenberTwo" onRemove={() => handleParticipantRemover("Menber2")}/>
+</ScrollView>
 
     </View>
   )
