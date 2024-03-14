@@ -44,10 +44,10 @@ export function Home() {
      </TouchableOpacity>
     </View>
 
-  <FlatList 
-  data={participant}
-  keyExtractor={item => item}
-  renderItem={({item}) => (
+ <FlatList 
+     data={participant}
+     keyExtractor={item => item}
+     renderItem={({item}) => (
     <Participant 
       key={item}
       name={item}
@@ -62,8 +62,10 @@ export function Home() {
   )}
 />
 
-
-
     </View>
   )
 }
+
+
+
+
