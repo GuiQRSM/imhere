@@ -1,4 +1,4 @@
-import { Text, View, TextInput, TouchableOpacity , ScrollView} from 'react-native';
+import { Text, View, TextInput, TouchableOpacity, ScrollView, Alert} from 'react-native';
 import { styles } from './styles';
 import { Participant } from '../../components/Participant';
 
