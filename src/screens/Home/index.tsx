@@ -7,8 +7,8 @@ export function Home() {
   const participant = ['Name1', 'Name2', 'Name3', 'Name4','Name5','Name6', 'Name7', 'Name8', 'Name9', 'Name10' ]
 
   function handleParticipantAdd() {
-    if(participant.includes) {
-
+    if(participant.includes("Name1")) {
+      return Alert.alert("Participante cadastrado", "Já existe um participante na lista com esse nome!")
     }
     console.log("Clicado!");
   }
