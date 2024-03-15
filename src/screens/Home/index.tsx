@@ -10,12 +10,19 @@ export function Home() {
     if(participant.includes("Name1")) {
       return Alert.alert("Participante já existe","Insira um novo paricipante na lista!")
     }
-    console.log("Clicado!");
   }
 
   function handleParticipantRemover(name: string) {
-    Alert.alert("Remover", `Remover o participante ${name}`)
-    console.log(`Clicou em remover ${name}`);
+    Alert.alert("Remover", `Remover o participante ${name}?`, [
+      {
+        text: "Sim",
+        onPress: () => Alert.alert("Deletado")
+      },
+      {
+        text: "Não",
+        style: "cancel"
+      }
+    ])
   }
 
   return (
