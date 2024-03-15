@@ -8,7 +8,7 @@ export function Home() {
 
   function handleParticipantAdd() {
     if(participant.includes("Name1")) {
-      return Alert.alert("Participante cadastrado", "Já existe um participante na lista com esse nome!")
+      return Alert.alert("Participante já existe","Insira um novo paricipante na lista!")
     }
     console.log("Clicado!");
   }
