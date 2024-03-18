@@ -4,6 +4,7 @@ import { styles } from './styles';
 import { Participant } from '../../components/Participant';
 
 export function Home() {
+  const [state, update] = useState(['Name1'])
 
   const participant = ['Name1']
 
