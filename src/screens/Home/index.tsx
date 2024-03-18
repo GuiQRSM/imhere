@@ -7,9 +7,12 @@ export function Home() {
   const participant = ['Name1']
 
   function handleParticipantAdd() {
-    if(participant.includes("Name1")) {
+    if(participant.includes("Name2")) {
       return Alert.alert("Participante já existe","Insira um novo paricipante na lista!")
     }
+
+    participant.push("Name3")
+    console.log(participant);
   }
 
   function handleParticipantRemover(name: string) {
