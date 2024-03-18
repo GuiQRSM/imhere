@@ -11,8 +11,7 @@ export function Home() {
       return Alert.alert("Participante já existe","Insira um novo paricipante na lista!")
     }
 
-    participant.push("Name3")
-    console.log(participant);
+    setParticipant(prevState => [...prevState,"Name3"])
 
   }
 
