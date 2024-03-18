@@ -4,7 +4,7 @@ import { Participant } from '../../components/Participant';
 
 export function Home() {
 
-  const participant = ['Name1', 'Name2', 'Name3', 'Name4','Name5','Name6', 'Name7', 'Name8', 'Name9', 'Name10' ]
+  const participant = ['Name1']
 
   function handleParticipantAdd() {
     if(participant.includes("Name1")) {
