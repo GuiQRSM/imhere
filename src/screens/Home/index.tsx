@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Text, View, TextInput, TouchableOpacity, FlatList, Alert} from 'react-native';
 import { styles } from './styles';
 import { Participant } from '../../components/Participant';
@@ -13,6 +14,7 @@ export function Home() {
 
     participant.push("Name3")
     console.log(participant);
+
   }
 
   function handleParticipantRemover(name: string) {
