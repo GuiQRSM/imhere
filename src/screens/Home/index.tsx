@@ -4,7 +4,7 @@ import { styles } from './styles';
 import { Participant } from '../../components/Participant';
 
 export function Home() {
-  const [ participant, setParticipant ] = useState(['Name1'])
+  const [participant, setParticipant] = useState(["Named1"])
 
   function handleParticipantAdd() {
     if(participant.includes("Name2")) {
