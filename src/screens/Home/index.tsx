@@ -8,11 +8,11 @@ export function Home() {
   const [participantName, setParticipantName] = useState('');
 
   function handleParticipantAdd() {
-    if(participant.includes("Name2")) {
+    if(participant.includes(participantName)) {
       return Alert.alert("Participante já existe","Insira um novo paricipante na lista!")
     }
 
-    setParticipant(prevState => [...prevState,"Name3"])
+    setParticipant(prevState => [...prevState, participantName])
 
   }
 
