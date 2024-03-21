@@ -18,8 +18,6 @@ export function Home() {
 
   function handleParticipantRemover(name: string) {
     
-    
-
     Alert.alert("Remover", `Remover o participante ${name}?`, [
       {
         text: "Sim",
