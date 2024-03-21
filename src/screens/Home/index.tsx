@@ -18,13 +18,12 @@ export function Home() {
 
   function handleParticipantRemover(name: string) {
     
-
-   setParticipant(prevState => prevState.filter((participant => participant !== name)))
+    
 
     Alert.alert("Remover", `Remover o participante ${name}?`, [
       {
         text: "Sim",
-        onPress: () => Alert.alert("Deletado!")
+        onPress: () => setParticipant(prevState => prevState.filter(participant => participant !== name))
       },
       {
         text: "Não",
