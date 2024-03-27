@@ -30,8 +30,8 @@ export function Home() {
     ])
   }
 
-  function handleStats(value: string) {
-    
+  function handleState(value: string) {
+
   }
 
   return (
@@ -50,7 +50,7 @@ export function Home() {
      style={styles.input}
      placeholder='Nome do participante'
      placeholderTextColor="#6B6B6B"
-     onChangeText={setParticipantName}
+     onChangeText={handleState}
      value={participantName}
      />
 
