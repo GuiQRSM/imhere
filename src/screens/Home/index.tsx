@@ -31,7 +31,8 @@ export function Home() {
   }
 
   function handleState(value: string) {
-    console.log(value)
+    setParticipantName(value);
+    console.log(participantName)
   }
 
   return (
