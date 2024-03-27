@@ -30,6 +30,10 @@ export function Home() {
     ])
   }
 
+  function handleStats(value: string) {
+    
+  }
+
   return (
     <View style={styles.container}>
 
