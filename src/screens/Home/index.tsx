@@ -30,11 +30,6 @@ export function Home() {
     ])
   }
 
-  function handleState(value: string) {
-    setParticipantName(value);
-    console.log(participantName)
-  }
-
   return (
     <View style={styles.container}>
 
@@ -51,7 +46,7 @@ export function Home() {
      style={styles.input}
      placeholder='Nome do participante'
      placeholderTextColor="#6B6B6B"
-     onChangeText={handleState}
+     onChangeText={setParticipantName}
      value={participantName}
      />
 
