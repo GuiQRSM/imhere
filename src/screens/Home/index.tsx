@@ -31,7 +31,7 @@ export function Home() {
   }
 
   function handleState(value: string) {
-
+    console.log(value)
   }
 
   return (
