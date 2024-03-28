@@ -18,7 +18,7 @@ export function Home() {
 
   function handleParticipantRemover(name: string) {
     
-    return console.log(name)
+    return console.log("Nome do usuario", name)
 
     Alert.alert("Remover", `Remover o participante ${name}?`, [
       {
